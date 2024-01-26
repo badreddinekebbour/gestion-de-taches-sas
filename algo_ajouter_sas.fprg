@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-26 11:08:18 "/>
+        <attribute name="created" value="dXNlcjtERVNLVE9QLTVWRkE3NTk7MjAyNC0wMS0yNjsiMTA6Mjk6MzEgIjsyNjU3"/>
+        <attribute name="edited" value="dXNlcjtERVNLVE9QLTVWRkE3NTk7MjAyNC0wMS0yNjsiMTE6MDg6MTggIjsxOzI3Njg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="jour, mois, annee" type="Integer" array="False" size=""/>
+            <declare name="titre, description, priority" type="String" array="False" size=""/>
+            <output expression="&quot;donner le titre&quot;" newline="True"/>
+            <input variable="titre"/>
+            <output expression="&quot;donner description&quot;" newline="True"/>
+            <input variable="description"/>
+            <output expression="&quot;donne priority&quot;" newline="True"/>
+            <input variable="priority"/>
+            <output expression="&quot;donne la date&quot;" newline="True"/>
+            <input variable="jour"/>
+            <input variable="mois"/>
+            <input variable="annee"/>
+        </body>
+    </function>
+</flowgorithm>
